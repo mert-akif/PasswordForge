@@ -133,11 +133,9 @@ https://rustup.rs/
 ### Clone the Repository
 
 bash
-git clone https://github.com/YOUR_USERNAME/password-forge.git
+git clone https://github.com/mert-akif/PasswordForge.git
 cd password-forge
 
-
-Replace YOUR_USERNAME with the repository owner's GitHub username.
 
 ### Run the Application
 
