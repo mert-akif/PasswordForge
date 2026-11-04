@@ -134,7 +134,7 @@ https://rustup.rs/
 
 bash
 git clone https://github.com/mert-akif/PasswordForge.git
-cd password-forge
+cd PasswordForge
 
 
 ### Run the Application
