@@ -241,35 +241,20 @@ Cancellation cannot undo characters that have already been sent.
 text
 password-forge/
 ├── .github/
-
 │   └── workflows/
-
 │       └── windows-build.yml
-
 ├── src/
-
 │   ├── main.rs
-
 │   ├── app.rs
-
 │   ├── theme.rs
-
 │   ├── generator/
-
 │   │   └── mod.rs
-
 │   └── typing/
-
 │       └── mod.rs
-
 ├── Cargo.toml
-
 ├── Cargo.lock
-
 ├── .gitignore
-
 ├── LICENSE
-
 └── README.md
 
 
