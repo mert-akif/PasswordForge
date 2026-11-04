@@ -1,0 +1,26 @@
+name: Windows Build
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Build release
+        run: cargo build --release --locked
+
+      - name: Upload Windows executable
+        uses: actions/upload-artifact@v4
+        with:
+          name: PasswordForge-Windows
+          path: target/release/*.exe
+          if-no-files-found: error
