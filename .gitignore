@@ -1,0 +1,17 @@
+# Rust build outputs
+/target/
+
+# RustRover / JetBrains IDE
+.idea/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
